@@ -1,0 +1,43 @@
+{
+	"cli": true,
+	"target": "directory",
+	"adapterName": "skyq",
+	"title": "SkyQ",
+	"description": "Connection to SkyQ receiver",
+	"keywords": [
+		"Sky",
+		"SkyQ",
+		"TV"
+	],
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "multimedia",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"i18n": "words.js",
+	"releaseScript": "yes",
+	"devServer": "no",
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "Pe-Ca-21",
+	"authorGithub": "Pe-Ca-21",
+	"authorEmail": "carsten.pebler@gmail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"defaultBranch": "main",
+	"license": "MIT License",
+	"dependabot": "no",
+	"creatorVersion": "2.1.0"
+}

@@ -1,0 +1,79 @@
+{
+	"common": {
+		"name": "skyq",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "SkyQ",
+		"titleLang": {
+			"en": "SkyQ",
+			"de": "SkyQ",
+			"ru": "SkyQ",
+			"pt": "SkyQ",
+			"nl": "SkyQ",
+			"fr": "SkyQ",
+			"it": "SkyQ",
+			"es": "SkyQ",
+			"pl": "SkyQ",
+			"zh-cn": "SkyQ"
+		},
+		"desc": {
+			"en": "Connection to SkyQ receiver",
+			"de": "Verbindung zum SkyQ-Empfänger",
+			"ru": "Подключение к приемнику SkyQ",
+			"pt": "Conexão com o receptor SkyQ",
+			"nl": "Aansluiting op SkyQ-ontvanger",
+			"fr": "Connexion au récepteur SkyQ",
+			"it": "Collegamento al ricevitore SkyQ",
+			"es": "Conexión al receptor SkyQ",
+			"pl": "Połączenie z odbiornikiem SkyQ",
+			"zh-cn": "连接到 SkyQ 接收器"
+		},
+		"authors": [
+			"Ca-Pe-21 <carsten.pebler@gmail.com>"
+		],
+		"keywords": [
+			"Sky",
+			"SkyQ",
+			"TV"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "skyq.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Ca-Pe-21/ioBroker.skyq/main/admin/skyq.png",
+		"readme": "https://github.com/Ca-Pe-21/ioBroker.skyq/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "multimedia",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"materialize": true,
+		"adminUI": {"config":"materialize"},
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
